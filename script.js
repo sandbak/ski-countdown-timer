@@ -92,6 +92,7 @@ function createSnowflakes() {
 const playlist = [
     encodeURIComponent('Weißes Pulver - White Powdr Crew.mp3'),
     'Polvere Bianca - White Powdr Crew.mp3',
+    'Polvere Bianca in Val Gardena - White Powder Crew.mp3',
     encodeURIComponent('White Powder - White Powdr Crew.mp3'),
     'White Powder Again - White Powdr Crew.mp3',
     'Weiße Pracht - White Powdr Crew.mp3',

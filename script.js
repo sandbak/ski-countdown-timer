@@ -90,7 +90,8 @@ function createSnowflakes() {
 
 // Audio player setup
 const playlist = [
-    'Weißes Pulver - Whiter Powdr Crew.mp3',
+    encodeURIComponent('Weißes Pulver - White Powdr Crew.mp3'),
+    'Polvere Bianca - White Powdr Crew.mp3',
     encodeURIComponent('White Powder - White Powdr Crew.mp3'),
     'White Powder Again - White Powdr Crew.mp3',
     'Weiße Pracht - White Powdr Crew.mp3',

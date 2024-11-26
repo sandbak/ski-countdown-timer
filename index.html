@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ski Trip Departure Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="snow-animation"></div>
+    <div class="container">
+        <h1>Time Until Your Ski Trip Departure</h1>
+        <div class="departure-time">January 29, 2025 at 16:30</div>
+        <div class="date-input">
+            <input type="date" id="skiDate">
+        </div>
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="days">0</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">0</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">0</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">0</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+        <div class="audio-controls">
+            <div class="track-title"></div>
+            <div class="progress-container">
+                <div class="time current-time">0:00</div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="time duration">0:00</div>
+            </div>
+            <div class="playback-controls">
+                <button id="prevButton" class="control-button">⏮</button>
+                <button id="playButton" class="play-button">
+                    <span class="play-icon">▶</span>
+                    <span class="pause-icon" style="display: none;">⏸</span>
+                </button>
+                <button id="nextButton" class="control-button">⏭</button>
+            </div>
+            <div class="playlist"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
